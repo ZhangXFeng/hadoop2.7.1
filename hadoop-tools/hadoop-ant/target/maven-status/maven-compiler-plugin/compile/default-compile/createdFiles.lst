@@ -1,0 +1,7 @@
+org/apache/hadoop/ant/condition/DfsBaseConditional.class
+org/apache/hadoop/ant/condition/DfsIsDir.class
+org/apache/hadoop/ant/condition/DfsZeroLen.class
+org/apache/hadoop/ant/DfsTask$2.class
+org/apache/hadoop/ant/DfsTask$1.class
+org/apache/hadoop/ant/condition/DfsExists.class
+org/apache/hadoop/ant/DfsTask.class

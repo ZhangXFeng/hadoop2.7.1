@@ -1,0 +1,8 @@
+org/apache/hadoop/mapred/ClientServiceDelegate.class
+org/apache/hadoop/mapred/YarnClientProtocolProvider.class
+org/apache/hadoop/mapred/ResourceMgrDelegate.class
+org/apache/hadoop/mapred/ClientCache.class
+org/apache/hadoop/mapred/ClientCache$1.class
+org/apache/hadoop/mapred/YARNRunner.class
+org/apache/hadoop/mapred/ClientServiceDelegate$1.class
+org/apache/hadoop/mapred/NotRunningJob.class

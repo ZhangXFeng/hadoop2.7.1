@@ -1,0 +1,7 @@
+org/apache/hadoop/contrib/utils/join/JobBase.class
+org/apache/hadoop/contrib/utils/join/DataJoinMapperBase.class
+org/apache/hadoop/contrib/utils/join/DataJoinReducerBase.class
+org/apache/hadoop/contrib/utils/join/DataJoinJob.class
+org/apache/hadoop/contrib/utils/join/ResetableIterator.class
+org/apache/hadoop/contrib/utils/join/ArrayListBackedIterator.class
+org/apache/hadoop/contrib/utils/join/TaggedMapOutput.class

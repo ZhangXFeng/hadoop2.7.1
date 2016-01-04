@@ -1,0 +1,6 @@
+org/apache/hadoop/tools/HadoopArchives$HarEntry.class
+org/apache/hadoop/tools/HadoopArchives$HArchivesMapper.class
+org/apache/hadoop/tools/HadoopArchives$HArchiveInputFormat.class
+org/apache/hadoop/tools/HadoopArchives.class
+org/apache/hadoop/tools/HadoopArchives$HArchivesReducer.class
+org/apache/hadoop/tools/HadoopArchives$FileStatusDir.class

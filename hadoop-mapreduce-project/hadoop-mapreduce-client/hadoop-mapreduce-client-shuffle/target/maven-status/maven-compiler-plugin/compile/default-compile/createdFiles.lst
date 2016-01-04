@@ -1,0 +1,16 @@
+org/apache/hadoop/mapred/ShuffleHandler$HttpPipelineFactory.class
+org/apache/hadoop/mapred/FadvisedFileRegion.class
+org/apache/hadoop/mapred/ShuffleHandler$1.class
+org/apache/hadoop/mapred/ShuffleHandler$Shuffle$1.class
+org/apache/hadoop/mapred/ShuffleHandler$LevelDBLogger.class
+org/apache/hadoop/mapred/ShuffleHandler$ShuffleMetrics.class
+org/apache/hadoop/mapred/proto/ShuffleHandlerRecoveryProtos$JobShuffleInfoProto.class
+org/apache/hadoop/mapred/ShuffleHandler$Shuffle$MapOutputInfo.class
+org/apache/hadoop/mapred/proto/ShuffleHandlerRecoveryProtos$1.class
+org/apache/hadoop/mapred/proto/ShuffleHandlerRecoveryProtos.class
+org/apache/hadoop/mapred/ShuffleHandler$Shuffle.class
+org/apache/hadoop/mapred/proto/ShuffleHandlerRecoveryProtos$JobShuffleInfoProto$Builder.class
+org/apache/hadoop/mapred/proto/ShuffleHandlerRecoveryProtos$JobShuffleInfoProto$1.class
+org/apache/hadoop/mapred/FadvisedChunkedFile.class
+org/apache/hadoop/mapred/proto/ShuffleHandlerRecoveryProtos$JobShuffleInfoProtoOrBuilder.class
+org/apache/hadoop/mapred/ShuffleHandler.class

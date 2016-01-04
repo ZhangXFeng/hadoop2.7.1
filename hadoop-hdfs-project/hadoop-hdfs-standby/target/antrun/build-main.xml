@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy filtering="true" file="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/src/main/webapps/proto-web.xml" tofile="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/target/webapps/hdfs/WEB-INF/web.xml"/>
+  <copy filtering="true" file="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/src/main/webapps/proto-web.xml" tofile="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/target/webapps/secondary/WEB-INF/web.xml"/>
+  <copy filtering="true" file="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/src/main/webapps/proto-web.xml" tofile="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/target/webapps/datanode/WEB-INF/web.xml"/>
+  <copy filtering="true" file="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/src/main/webapps/proto-web.xml" tofile="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/target/webapps/journal/WEB-INF/web.xml"/>
+  <copy filtering="true" file="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/src/main/webapps/proto-web.xml" tofile="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/target/webapps/nfs3/WEB-INF/web.xml"/>
+  <copy toDir="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/target/webapps">
+    <fileset dir="/media/sean/00022099000F449E/linux-eclipse/hadoop-2.7.1/hadoop-2.7.1-src/hadoop-hdfs-project/hadoop-hdfs/src/main/webapps">
+      <exclude name="**/proto-web.xml"/>
+    </fileset>
+  </copy>
+</target>
+</project>

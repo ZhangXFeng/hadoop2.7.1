@@ -1,0 +1,10 @@
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$ContainerTokenIdentifierForTestProto$1.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$ContainerTokenIdentifierForTestProtoOrBuilder.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$NMTokenIdentifierNewProtoOrBuilder.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$NMTokenIdentifierNewProto.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$ContainerTokenIdentifierForTestProto.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$ContainerTokenIdentifierForTestProto$Builder.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$NMTokenIdentifierNewProto$Builder.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$NMTokenIdentifierNewProto$1.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos$1.class
+org/apache/hadoop/yarn/proto/YarnSecurityTestTokenProtos.class

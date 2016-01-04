@@ -1,0 +1,15 @@
+org/apache/hadoop/yarn/server/webproxy/WebAppProxyServlet$1.class
+org/apache/hadoop/yarn/server/webproxy/WebAppProxyServlet.class
+org/apache/hadoop/yarn/server/webproxy/WebAppProxyServlet$Page.class
+org/apache/hadoop/yarn/server/webproxy/ProxyUriUtils.class
+org/apache/hadoop/yarn/server/webproxy/WebAppProxy.class
+org/apache/hadoop/yarn/server/webproxy/ProxyUtils$_.class
+org/apache/hadoop/yarn/server/webproxy/amfilter/AmIpServletRequestWrapper.class
+org/apache/hadoop/yarn/server/webproxy/amfilter/AmIpPrincipal.class
+org/apache/hadoop/yarn/server/webproxy/ProxyUtils.class
+org/apache/hadoop/yarn/server/webproxy/WebAppProxyServer.class
+org/apache/hadoop/yarn/server/webproxy/amfilter/AmIpFilter.class
+org/apache/hadoop/yarn/server/webproxy/amfilter/AmFilterInitializer.class
+org/apache/hadoop/yarn/server/webproxy/WebAppProxyServlet$_.class
+org/apache/hadoop/yarn/server/webproxy/AppReportFetcher.class
+org/apache/hadoop/yarn/server/webproxy/ProxyUtils$Page.class

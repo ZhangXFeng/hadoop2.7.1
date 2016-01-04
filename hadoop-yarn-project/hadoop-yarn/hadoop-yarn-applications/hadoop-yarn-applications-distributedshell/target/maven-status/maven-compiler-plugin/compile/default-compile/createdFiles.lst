@@ -1,0 +1,12 @@
+org/apache/hadoop/yarn/applications/distributedshell/Client.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster$NMCallbackHandler.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster$2.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster$RMCallbackHandler.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster$DSEntity.class
+org/apache/hadoop/yarn/applications/distributedshell/DSConstants.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster$3.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster$LaunchContainerRunnable.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster$DSEvent.class
+org/apache/hadoop/yarn/applications/distributedshell/Log4jPropertyHelper.class
+org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster$1.class
