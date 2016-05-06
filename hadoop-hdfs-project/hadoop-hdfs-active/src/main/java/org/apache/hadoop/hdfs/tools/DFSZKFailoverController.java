@@ -164,7 +164,6 @@ public class DFSZKFailoverController extends ZKFailoverController {
   protected String getScopeInsideParentNode() {
     return localNNTarget.getNameServiceId();
   }
-
   public static void main(String args[])
       throws Exception {
 //	  args=new String[1];

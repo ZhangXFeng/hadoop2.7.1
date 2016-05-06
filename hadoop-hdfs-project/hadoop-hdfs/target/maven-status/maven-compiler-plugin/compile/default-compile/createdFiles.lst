@@ -880,8 +880,8 @@ org/apache/hadoop/hdfs/protocol/proto/DataTransferProtos$OpWriteBlockProto.class
 org/apache/hadoop/hdfs/shortcircuit/ShortCircuitReplicaInfo.class
 org/apache/hadoop/hdfs/protocol/proto/HdfsProtos$FsPermissionProto$1.class
 org/apache/hadoop/hdfs/protocol/proto/ClientNamenodeProtocolProtos$CachePoolStatsProto$Builder.class
-org/apache/hadoop/hdfs/web/HsftpFileSystem.class
 org/apache/hadoop/hdfs/protocol/proto/XAttrProtos$GetXAttrsResponseProto$Builder.class
+org/apache/hadoop/hdfs/web/HsftpFileSystem.class
 org/apache/hadoop/hdfs/server/blockmanagement/BlockManager$2.class
 org/apache/hadoop/hdfs/qjournal/client/AsyncLogger$Factory.class
 org/apache/hadoop/hdfs/server/mover/Mover.class
@@ -1810,8 +1810,8 @@ org/apache/hadoop/hdfs/server/namenode/JournalManager.class
 org/apache/hadoop/hdfs/protocol/proto/ClientDatanodeProtocolProtos$ClientDatanodeProtocolService.class
 org/apache/hadoop/hdfs/server/namenode/TransferFsImage$HttpPutFailedException.class
 org/apache/hadoop/hdfs/protocol/proto/ClientNamenodeProtocolProtos$RemoveCacheDirectiveRequestProto.class
-org/apache/hadoop/hdfs/protocol/proto/ClientNamenodeProtocolProtos$RenameSnapshotRequestProtoOrBuilder.class
 org/apache/hadoop/hdfs/protocol/proto/XAttrProtos$ListXAttrsRequestProtoOrBuilder.class
+org/apache/hadoop/hdfs/protocol/proto/ClientNamenodeProtocolProtos$RenameSnapshotRequestProtoOrBuilder.class
 org/apache/hadoop/hdfs/shortcircuit/ClientMmap.class
 org/apache/hadoop/hdfs/qjournal/server/JNStorage.class
 org/apache/hadoop/hdfs/qjournal/server/JournalNode$1.class
@@ -1971,8 +1971,8 @@ org/apache/hadoop/hdfs/protocol/proto/DatanodeProtocolProtos$RegisterCommandProt
 org/apache/hadoop/hdfs/server/namenode/FsImageProto$INodeSection$XAttrFeatureProto$Builder.class
 org/apache/hadoop/hdfs/protocol/proto/ClientNamenodeProtocolProtos$ModifyCachePoolRequestProto.class
 org/apache/hadoop/hdfs/protocol/proto/DatanodeProtocolProtos$BlockIdCommandProto$Action$1.class
-org/apache/hadoop/hdfs/protocol/BlockListAsLongs$LongsDecoder.class
 org/apache/hadoop/hdfs/protocol/DatanodeID.class
+org/apache/hadoop/hdfs/protocol/BlockListAsLongs$LongsDecoder.class
 org/apache/hadoop/hdfs/server/datanode/DataNode$DataNodeDiskChecker.class
 org/apache/hadoop/hdfs/server/namenode/VersionInfoMXBean.class
 org/apache/hadoop/hdfs/tools/offlineEditsViewer/XmlEditsVisitor.class
@@ -2247,8 +2247,8 @@ org/apache/hadoop/hdfs/protocol/proto/EncryptionZonesProtos$GetEZForPathResponse
 org/apache/hadoop/hdfs/protocol/proto/DataTransferProtos$OpReplaceBlockProtoOrBuilder.class
 org/apache/hadoop/hdfs/server/namenode/FSImageCompression.class
 org/apache/hadoop/hdfs/protocol/proto/NamenodeProtocolProtos$NamenodeProtocolService.class
-org/apache/hadoop/hdfs/server/namenode/BackupNode$BackupNodeRpcServer.class
 org/apache/hadoop/hdfs/server/namenode/FsImageProto$SnapshotSection$Snapshot.class
+org/apache/hadoop/hdfs/server/namenode/BackupNode$BackupNodeRpcServer.class
 org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode$2.class
 org/apache/hadoop/hdfs/server/namenode/BackupImage.class
 org/apache/hadoop/hdfs/qjournal/client/IPCLoggerChannel$6.class
@@ -2434,8 +2434,8 @@ org/apache/hadoop/hdfs/protocol/proto/ClientNamenodeProtocolProtos$ConcatRequest
 org/apache/hadoop/hdfs/server/blockmanagement/PendingDataNodeMessages$ReportedBlockInfo.class
 org/apache/hadoop/hdfs/server/namenode/FSDirMkdirOp.class
 org/apache/hadoop/hdfs/server/namenode/StreamFile.class
-org/apache/hadoop/hdfs/server/datanode/ReplicaInfo$ReplicaDirInfo.class
 org/apache/hadoop/hdfs/protocol/proto/XAttrProtos$RemoveXAttrResponseProto$1.class
+org/apache/hadoop/hdfs/server/datanode/ReplicaInfo$ReplicaDirInfo.class
 org/apache/hadoop/hdfs/protocol/proto/NamenodeProtocolProtos$RegisterResponseProto$Builder.class
 org/apache/hadoop/hdfs/server/namenode/snapshot/FileDiff.class
 org/apache/hadoop/hdfs/util/Canceler.class
@@ -2743,8 +2743,8 @@ org/apache/hadoop/hdfs/protocol/CacheDirectiveInfo$Builder.class
 org/apache/hadoop/hdfs/protocol/proto/ClientDatanodeProtocolProtos$GetBlockLocalPathInfoResponseProto$1.class
 org/apache/hadoop/hdfs/tools/offlineImageViewer/FileDistributionVisitor.class
 org/apache/hadoop/hdfs/protocol/proto/ClientNamenodeProtocolProtos$ListCorruptFileBlocksResponseProto$1.class
-org/apache/hadoop/hdfs/server/namenode/BackupImage$BNState.class
 org/apache/hadoop/hdfs/server/namenode/FsImageProto$SnapshotDiffSection$DiffEntry.class
+org/apache/hadoop/hdfs/server/namenode/BackupImage$BNState.class
 org/apache/hadoop/hdfs/protocol/proto/HdfsProtos$HdfsFileStatusProto$FileType.class
 org/apache/hadoop/hdfs/protocol/proto/DataTransferProtos$ClientOperationHeaderProto.class
 org/apache/hadoop/hdfs/inotify/Event$UnlinkEvent.class
@@ -3007,9 +3007,9 @@ org/apache/hadoop/hdfs/server/namenode/startupprogress/StartupProgressMetrics.cl
 org/apache/hadoop/hdfs/util/Diff$UndoInfo.class
 org/apache/hadoop/hdfs/server/namenode/FsImageProto$SecretManagerSection.class
 org/apache/hadoop/hdfs/qjournal/protocol/QJournalProtocolProtos$GetJournalStateResponseProto.class
+org/apache/hadoop/hdfs/protocol/proto/XAttrProtos$ListXAttrsResponseProto$Builder.class
 org/apache/hadoop/hdfs/qjournal/protocol/QJournalProtocolProtos$DoPreUpgradeRequestProto$1.class
 org/apache/hadoop/hdfs/DFSOutputStream$DataStreamer$ResponseProcessor.class
-org/apache/hadoop/hdfs/protocol/proto/XAttrProtos$ListXAttrsResponseProto$Builder.class
 org/apache/hadoop/hdfs/server/datanode/DataNode$1.class
 org/apache/hadoop/hdfs/server/namenode/FSPermissionChecker.class
 org/apache/hadoop/hdfs/web/resources/FsActionParam.class

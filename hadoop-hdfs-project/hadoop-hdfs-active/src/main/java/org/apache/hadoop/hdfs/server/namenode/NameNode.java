@@ -1545,8 +1545,6 @@ public class NameNode implements NameNodeStatusMXBean {
   /**
    */
   public static void main(String argv[]) throws Exception {
-//		argv = new String[1];
-//		argv[0] = "-format";
     if (DFSUtil.parseHelpArgument(argv, NameNode.USAGE, System.out, true)) {
       System.exit(0);
     }

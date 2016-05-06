@@ -36,7 +36,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 public class RegexMapper<K> extends Mapper<K, Text, Text, LongWritable> {
 
   public static String PATTERN = "mapreduce.mapper.regex";
-  public static String GROUP = "mapreduce.mapper.regexmapper..group";
+  public static String GROUP = "mapreduce.mapper.regexmapper.group";
   private Pattern pattern;
   private int group;
 

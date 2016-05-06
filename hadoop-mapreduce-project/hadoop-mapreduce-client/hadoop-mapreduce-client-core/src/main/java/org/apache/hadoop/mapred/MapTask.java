@@ -776,7 +776,7 @@ public class MapTask extends Task {
           input, output, 
           committer, 
           reporter, split);
-
+    
     org.apache.hadoop.mapreduce.Mapper<INKEY,INVALUE,OUTKEY,OUTVALUE>.Context 
         mapperContext = 
           new WrappedMapper<INKEY, INVALUE, OUTKEY, OUTVALUE>().getMapContext(

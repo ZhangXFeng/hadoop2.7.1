@@ -20,6 +20,8 @@ package org.apache.hadoop.hdfs;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.URI;
 import java.util.ArrayList;
@@ -83,6 +85,7 @@ import org.apache.hadoop.hdfs.protocol.SnapshottableDirectoryStatus;
 import org.apache.hadoop.hdfs.security.token.block.InvalidBlockTokenException;
 import org.apache.hadoop.hdfs.security.token.delegation.DelegationTokenIdentifier;
 import org.apache.hadoop.hdfs.server.namenode.NameNode;
+import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.net.NetUtils;
 import org.apache.hadoop.security.AccessControlException;
@@ -2252,4 +2255,27 @@ public class DistributedFileSystem extends FileSystem {
       throws IOException {
     return dfs.getInotifyEventStream(lastReadTxid);
   }
+  public static void main(String[] args) throws Exception {
+		DistributedFileSystem dfs = new DistributedFileSystem();
+		Configuration conf = new HdfsConfiguration();
+		URI uri = new URI(conf.get("fs.defaultFS"));
+		dfs.initialize(uri, conf);
+		Path path = new Path("/tmp/data");
+		FsPermission permission = new FsPermission(FsAction.ALL, FsAction.ALL,
+				FsAction.ALL);
+		dfs.delete(path, true);
+		dfs.mkdirs(path, permission);
+
+		Thread.currentThread().getContextClassLoader()
+				.getResource("hdfs-site.xml").openStream();
+		InputStream in = Thread.currentThread().getContextClassLoader()
+				.getResource("hdfs-site.xml").openStream();
+
+		Path p = new Path("/tmp/data/yarn-site.xml");
+		OutputStream out = dfs.create(p);
+		IOUtils.copyBytes(in, out, conf);
+
+		IOUtils.closeStream(in);
+		dfs.close();
+	}
 }

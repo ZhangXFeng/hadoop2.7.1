@@ -29,8 +29,8 @@ org/apache/hadoop/yarn/proto/LocalizationProtocol.class
 org/apache/hadoop/yarn/server/nodemanager/containermanager/container/ContainerImpl$ResourceFailedTransition.class
 org/apache/hadoop/yarn/server/nodemanager/NodeManager.class
 org/apache/hadoop/yarn/proto/LocalizationProtocol$LocalizationProtocolService$Stub.class
-org/apache/hadoop/yarn/server/nodemanager/WindowsSecureContainerExecutor$Native$Elevated.class
 org/apache/hadoop/yarn/server/nodemanager/webapp/ApplicationPage.class
+org/apache/hadoop/yarn/server/nodemanager/WindowsSecureContainerExecutor$Native$Elevated.class
 org/apache/hadoop/yarn/server/nodemanager/Context.class
 org/apache/hadoop/yarn/server/nodemanager/webapp/ApplicationPage$ApplicationBlock.class
 org/apache/hadoop/yarn/server/nodemanager/NodeStatusUpdater.class
@@ -100,8 +100,8 @@ org/apache/hadoop/yarn/server/nodemanager/containermanager/launcher/ContainersLa
 org/apache/hadoop/yarn/server/nodemanager/containermanager/localizer/LocalizerContext.class
 org/apache/hadoop/yarn/server/nodemanager/webapp/WebServer$NMWebApp.class
 org/apache/hadoop/yarn/server/nodemanager/api/protocolrecords/LocalizerHeartbeatResponse.class
-org/apache/hadoop/yarn/server/nodemanager/util/DefaultLCEResourcesHandler.class
 org/apache/hadoop/yarn/server/nodemanager/WindowsSecureContainerExecutor.class
+org/apache/hadoop/yarn/server/nodemanager/util/DefaultLCEResourcesHandler.class
 org/apache/hadoop/yarn/server/nodemanager/containermanager/application/ApplicationContainerInitEvent.class
 org/apache/hadoop/yarn/server/nodemanager/containermanager/monitor/ContainerMetrics$1.class
 org/apache/hadoop/yarn/server/nodemanager/api/protocolrecords/LocalResourceStatus.class
@@ -241,8 +241,8 @@ org/apache/hadoop/yarn/server/nodemanager/util/LCEResourcesHandler.class
 org/apache/hadoop/yarn/server/nodemanager/DefaultContainerExecutor$WindowsLocalWrapperScriptBuilder.class
 org/apache/hadoop/yarn/server/nodemanager/containermanager/localizer/ResourceLocalizationService$LocalizerTracker.class
 org/apache/hadoop/yarn/server/nodemanager/containermanager/monitor/ContainersMonitor.class
-org/apache/hadoop/yarn/server/nodemanager/NodeManager$NMContext.class
 org/apache/hadoop/yarn/server/nodemanager/DirectoryCollection.class
+org/apache/hadoop/yarn/server/nodemanager/NodeManager$NMContext.class
 org/apache/hadoop/yarn/server/nodemanager/containermanager/localizer/ResourceState.class
 org/apache/hadoop/yarn/proto/YarnServerNodemanagerServiceProtos$LocalizerStatusProtoOrBuilder.class
 org/apache/hadoop/yarn/server/nodemanager/containermanager/localizer/event/ResourceEvent.class

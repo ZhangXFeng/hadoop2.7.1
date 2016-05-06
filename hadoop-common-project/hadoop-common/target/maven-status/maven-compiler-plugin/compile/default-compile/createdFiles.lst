@@ -267,8 +267,8 @@ org/apache/hadoop/http/HttpServer2$QuotingInputFilter$RequestQuoter.class
 org/apache/hadoop/metrics/ganglia/GangliaContext31.class
 org/apache/hadoop/record/compiler/JString$CppString.class
 org/apache/hadoop/util/bloom/HashFunction.class
-org/apache/hadoop/io/file/tfile/Compression.class
 org/apache/hadoop/io/BloomMapFile.class
+org/apache/hadoop/io/file/tfile/Compression.class
 org/apache/hadoop/security/proto/SecurityProtos$RenewDelegationTokenRequestProtoOrBuilder.class
 org/apache/hadoop/io/retry/RetryPolicies$FailoverOnNetworkExceptionRetry.class
 org/apache/hadoop/security/IdMappingConstant.class
@@ -1183,8 +1183,8 @@ org/apache/hadoop/security/proto/RefreshAuthorizationPolicyProtocolProtos$Refres
 org/apache/hadoop/fs/viewfs/ViewFileSystem$MountPoint.class
 org/apache/hadoop/conf/Configuration$IntegerRanges.class
 org/apache/hadoop/fs/FileStatus.class
-org/apache/hadoop/io/SequenceFile$Writer$BlockSizeOption.class
 org/apache/hadoop/io/SequenceFile$1.class
+org/apache/hadoop/io/SequenceFile$Writer$BlockSizeOption.class
 org/apache/hadoop/fs/FsUrlStreamHandler.class
 org/apache/hadoop/io/NullWritable$Comparator.class
 org/apache/hadoop/ipc/ProtocolSignature.class
@@ -1367,9 +1367,9 @@ org/apache/hadoop/fs/InvalidPathException.class
 org/apache/hadoop/fs/shell/find/Expression.class
 org/apache/hadoop/metrics2/sink/GraphiteSink.class
 org/apache/hadoop/io/compress/lz4/Lz4Compressor.class
+org/apache/hadoop/io/ArrayFile.class
 org/apache/hadoop/io/compress/CompressorStream.class
 org/apache/hadoop/io/compress/zlib/ZlibDecompressor$ZlibDirectDecompressor.class
-org/apache/hadoop/io/ArrayFile.class
 org/apache/hadoop/io/file/tfile/Chunk$ChunkDecoder.class
 org/apache/hadoop/crypto/OpensslCipher$Transform.class
 org/apache/hadoop/tracing/TraceAdminPB$TraceAdminService$Interface.class
@@ -1698,8 +1698,8 @@ org/apache/hadoop/ipc/protobuf/ProtocolInfoProtos$ProtocolInfoService$Interface.
 org/apache/hadoop/ha/proto/HAServiceProtocolProtos$GetServiceStatusRequestProtoOrBuilder.class
 org/apache/hadoop/fs/FSOutputSummer.class
 org/apache/hadoop/ipc/ProtobufRpcEngine$RpcResponseMessageWrapper.class
-org/apache/hadoop/io/MD5Hash$1.class
 org/apache/hadoop/io/ByteWritable$Comparator.class
+org/apache/hadoop/io/MD5Hash$1.class
 org/apache/hadoop/ipc/protocolPB/RefreshCallQueueProtocolPB.class
 org/apache/hadoop/util/Progress.class
 org/apache/hadoop/fs/shell/find/And.class
@@ -1850,8 +1850,8 @@ org/apache/hadoop/metrics/spi/AbstractMetricsContext$MetricMap.class
 org/apache/hadoop/ipc/DecayRpcScheduler$MetricsProxy.class
 org/apache/hadoop/net/SocketInputStream.class
 org/apache/hadoop/http/HttpServer2$1.class
-org/apache/hadoop/io/DataInputByteBuffer$Buffer.class
 org/apache/hadoop/io/file/tfile/TFileDumper.class
+org/apache/hadoop/io/DataInputByteBuffer$Buffer.class
 org/apache/hadoop/net/NetworkTopology$InnerNode.class
 org/apache/hadoop/ha/proto/HAServiceProtocolProtos$MonitorHealthRequestProtoOrBuilder.class
 org/apache/hadoop/security/token/delegation/web/DelegationTokenManager.class

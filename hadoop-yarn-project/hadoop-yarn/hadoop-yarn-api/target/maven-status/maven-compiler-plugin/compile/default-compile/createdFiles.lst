@@ -428,8 +428,8 @@ org/apache/hadoop/yarn/api/protocolrecords/MoveApplicationAcrossQueuesResponse.c
 org/apache/hadoop/yarn/factories/RecordFactory.class
 org/apache/hadoop/yarn/exceptions/ContainerNotFoundException.class
 org/apache/hadoop/yarn/server/api/protocolrecords/RefreshServiceAclsRequest.class
-org/apache/hadoop/yarn/proto/YarnServiceProtos$StopContainerRequestProto$1.class
 org/apache/hadoop/yarn/proto/YarnServiceProtos$ApplicationsRequestScopeProto.class
+org/apache/hadoop/yarn/proto/YarnServiceProtos$StopContainerRequestProto$1.class
 org/apache/hadoop/yarn/proto/YarnServiceProtos$StopContainersResponseProto$Builder.class
 org/apache/hadoop/yarn/proto/YarnProtos$ApplicationAccessTypeProto.class
 org/apache/hadoop/yarn/proto/YarnServerResourceManagerServiceProtos$ReplaceLabelsOnNodeRequestProtoOrBuilder.class
